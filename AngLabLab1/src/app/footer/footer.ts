@@ -7,5 +7,11 @@ import { Component } from '@angular/core';
   styleUrl: './footer.scss'
 })
 export class Footer {
-
+email = 'thepcvirus@gmail.com';
+  phone = '+20 1155394113';
+  git = 'https://github.com/thepcvirus';
+  linked = 'https://www.linkedin.com/in/thepcvirus/';
+  
+  currentYear = new Date().getFullYear();
 }
+
